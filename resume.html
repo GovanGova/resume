@@ -105,22 +105,23 @@
             <ul>
               <li>
                 Project Description: The Trimble Earthworks Grade Control System is Trimble's
-                next-generation grade control platform for excavators and dozers.
+                next-generation grade control platform for excavators, dozers and mining machines.
                 Reengineered from the ground up, the Trimble Earthworks Grade Control System
                 features intuitive, easy-to-learn software that runs on an Android operating system.
               </li>
               <li>
-                Technology and Language used: C++11, Google Protocol Buffer, Android OS, OpenGL ES3.0  
+                Technology and Language used: C++11, C++14, Google Protocol Buffer and FlatBuffers, Android OS, OpenGL ES3.0  
               </li>
               <li>
                 AR Camera: Task involves calibrating physical camera using OpenCV and reconstructing 
-                3D perspective view on top the camera feed to get the augmaneted reality feel.
+                3D perspective view on top the camera feed to get the augmaneted reality feel. Also implemented functionalities 
+                to handle communication between android client and the camera to get/set specific parameters based on camera's spec.
               </li>
               <li>
-                Developed features to allow operator to create simple level and slope design 
+                Level and Slope design: Developed features to allow operator to create simple level and slope design 
                 dynamically on the field/site. The task involved analyzing and incorporating
                 changes in the existing module of the server and visualize corresponding surface with
-                respect to machine position in android using OpenGL.
+                respect to machine position in android client using OpenGL.
               </li>
               <li>
                 Developed feature to calibrate cab rotation sensor(gives current heading information)
@@ -128,8 +129,8 @@
                 through CAN protocol and communicating device to move on to next stage.
               </li>
               <li>
-                Dynamically constructed and displayed swing boom model for swing boom excavator
-                machine in android client
+                Dig and Dump identification: Designed and developed dig and dump identification feature for large 
+                wheel loader and front shovel based on few rules such as bucket, stick angle and machine movements. 
               </li>
             </ul>
           </div>
